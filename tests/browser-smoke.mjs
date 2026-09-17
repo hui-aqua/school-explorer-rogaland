@@ -14,9 +14,11 @@ page.on("pageerror", (error) => errors.push(error.message));
 
 await page.goto(baseUrl, { waitUntil: "networkidle" });
 await page.waitForSelector("#school-rows tr");
+await page.waitForSelector(".leaflet-control-zoom");
 assert.equal(await page.locator("#result-count").textContent(), "22");
 assert.equal(await page.locator("#school-rows tr").count(), 22);
 assert.equal(await page.locator(".school-marker").count(), 22);
+assert.match(await page.locator(".leaflet-control-attribution").textContent(), /OpenStreetMap/);
 
 await page.selectOption("#map-mode", "all");
 await page.waitForFunction(() => document.querySelectorAll("#school-rows tr").length === 103);

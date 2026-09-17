@@ -10,9 +10,9 @@
       minMaths: "数学最低分", minEnglish: "英语最低分", minWellbeing: "幸福感最低值", bullyingYear: "欺凌数据年份",
       chooseYear: "选择年份后筛选", maxBullying: "欺凌率最高值 (%)", maxRatio: "每名教师学生数最高值", includeMissing: "启用阈值筛选时保留缺失值",
       yearWarning: "欺凌率只有在选择同一学年后才能设置阈值，避免把不同年份直接混排。缺失值不会被当作零。",
-      offlineMap: "离线坐标地图", schools: "学校", currentSelection: "当前选择", pupils: "学生", publicShare: "公立占比", withBullying: "同年欺凌数据",
+      offlineMap: "OpenStreetMap 交互地图", schools: "学校", currentSelection: "当前选择", pupils: "学生", publicShare: "公立占比", withBullying: "同年欺凌数据",
       sortBy: "排序", schoolName: "学校名称", reading: "阅读", maths: "数学", english: "英语", wellbeing: "幸福感", bullying: "欺凌率", teacherRatio: "学生/教师",
-      exportCsv: "导出当前结果 CSV", mapNote: "地图按经纬度绘制，不加载在线底图，因此下载后也可离线使用。", traceable: "逐项保留年份、年级与来源",
+      exportCsv: "导出当前结果 CSV", mapNote: "底图来自 OpenStreetMap，需要联网；学校数据、筛选与 XLSX 导入仍在浏览器本地运行。", traceable: "逐项保留年份、年级与来源",
       comparisonTable: "学校比较表", profile: "类型", source: "来源", noResults: "没有符合条件的学校", loosenFilters: "请放宽筛选条件，或允许阈值筛选保留缺失值。",
       howToRead: "如何解读", methodOne: "国家测试分数只比较相同年级和学年；小样本差异可能落在不确定范围内。",
       methodTwo: "幸福感和欺凌来自指定年级的学生调查，不代表全校所有学生。", methodThree: "“—”表示未公布、隐私屏蔽或缺失，不表示零，也不表示学校存在问题。",
@@ -20,7 +20,7 @@
       references: "参考资料", builtInStatus: "内置 103 所学校；默认地图选择 22 所。", importedStatus: "已导入 {count} 所学校。当前选择方式：{mode}。",
       visibleMode: "Excel 可见行", explicitMode: "Show on map", allMode: "全部", grade: "年级", year: "学年", unknown: "未公布", openSource: "学校来源",
       address: "地址", tests: "考试", survey: "调查", ratio: "师生比", importError: "无法读取工作簿。请确认存在“All schools”工作表及表头。",
-      importSuccess: "XLSX 已导入", mapEmpty: "当前筛选没有可绘制的学校。", selectionHint: "点击地图标记或表格行查看学校。"
+      importSuccess: "XLSX 已导入", mapEmpty: "当前筛选没有可绘制的学校。", tileUnavailable: "OpenStreetMap 底图暂时无法加载；学校点位仍可使用。", selectionHint: "点击地图标记或表格行查看学校。"
     },
     en: {
       region: "Sola · Stavanger · Sandnes", title: "School data explorer", language: "Language", downloadWorkbook: "Download map-ready XLSX",
@@ -30,9 +30,9 @@
       minMaths: "Minimum maths", minEnglish: "Minimum English", minWellbeing: "Minimum well-being", bullyingYear: "Bullying data year",
       chooseYear: "Choose a year to filter", maxBullying: "Maximum bullying (%)", maxRatio: "Maximum pupils per teacher", includeMissing: "Keep missing values when thresholds are active",
       yearWarning: "A bullying threshold requires one school year, preventing direct comparison of different years. Missing values are never treated as zero.",
-      offlineMap: "Offline coordinate map", schools: "schools", currentSelection: "Current selection", pupils: "Pupils", publicShare: "Public share", withBullying: "Bullying data in selected year",
+      offlineMap: "Interactive OpenStreetMap", schools: "schools", currentSelection: "Current selection", pupils: "Pupils", publicShare: "Public share", withBullying: "Bullying data in selected year",
       sortBy: "Sort by", schoolName: "School", reading: "Reading", maths: "Maths", english: "English", wellbeing: "Well-being", bullying: "Bullying", teacherRatio: "Pupils/teacher",
-      exportCsv: "Export current results as CSV", mapNote: "The map plots coordinates without online tiles, so it also works after download.", traceable: "Year, grade and source retained for every metric",
+      exportCsv: "Export current results as CSV", mapNote: "The OpenStreetMap basemap needs an internet connection; school data, filtering and XLSX import stay in your browser.", traceable: "Year, grade and source retained for every metric",
       comparisonTable: "School comparison", profile: "Profile", source: "Source", noResults: "No schools match", loosenFilters: "Loosen the filters or allow missing values during threshold filtering.",
       howToRead: "How to read the data", methodOne: "Compare national-test scores only within the same grade and year. Small differences may fall within published uncertainty.",
       methodTwo: "Well-being and bullying come from a specified survey grade, not every pupil in the school.", methodThree: "“—” means unavailable, suppressed or missing. It never means zero or that something is wrong.",
@@ -40,7 +40,7 @@
       references: "References", builtInStatus: "Built-in dataset: 103 schools; default map selection: 22.", importedStatus: "Imported {count} schools. Selection mode: {mode}.",
       visibleMode: "visible Excel rows", explicitMode: "Show on map", allMode: "all", grade: "grade", year: "year", unknown: "Unavailable", openSource: "School source",
       address: "Address", tests: "Tests", survey: "Survey", ratio: "Teacher ratio", importError: "The workbook could not be read. Check that it contains an “All schools” sheet and headers.",
-      importSuccess: "XLSX imported", mapEmpty: "No geocoded schools match the current filters.", selectionHint: "Select a map marker or table row to inspect a school."
+      importSuccess: "XLSX imported", mapEmpty: "No geocoded schools match the current filters.", tileUnavailable: "The OpenStreetMap basemap is temporarily unavailable; school markers remain usable.", selectionHint: "Select a map marker or table row to inspect a school."
     },
     nb: {
       region: "Sola · Stavanger · Sandnes", title: "Utforsker for skoledata", language: "Språk", downloadWorkbook: "Last ned kartklar XLSX",
@@ -50,9 +50,9 @@
       minMaths: "Minste regning", minEnglish: "Minste engelsk", minWellbeing: "Minste trivsel", bullyingYear: "År for mobbetall",
       chooseYear: "Velg år før filtrering", maxBullying: "Høyeste mobbeandel (%)", maxRatio: "Flest elever per lærer", includeMissing: "Behold manglende verdier når terskler er aktive",
       yearWarning: "En terskel for mobbing krever ett skoleår, slik at ulike år ikke sammenlignes direkte. Manglende verdier behandles aldri som null.",
-      offlineMap: "Frakoblet koordinatkart", schools: "skoler", currentSelection: "Gjeldende utvalg", pupils: "Elever", publicShare: "Andel offentlige", withBullying: "Mobbetall i valgt år",
+      offlineMap: "Interaktivt OpenStreetMap", schools: "skoler", currentSelection: "Gjeldende utvalg", pupils: "Elever", publicShare: "Andel offentlige", withBullying: "Mobbetall i valgt år",
       sortBy: "Sorter etter", schoolName: "Skole", reading: "Lesing", maths: "Regning", english: "Engelsk", wellbeing: "Trivsel", bullying: "Mobbing", teacherRatio: "Elever/lærer",
-      exportCsv: "Eksporter gjeldende resultat som CSV", mapNote: "Kartet plotter koordinater uten nettkart og virker derfor også etter nedlasting.", traceable: "År, trinn og kilde beholdes for hvert mål",
+      exportCsv: "Eksporter gjeldende resultat som CSV", mapNote: "Bakgrunnskartet fra OpenStreetMap krever nettilgang; skoledata, filtrering og XLSX-import skjer lokalt i nettleseren.", traceable: "År, trinn og kilde beholdes for hvert mål",
       comparisonTable: "Skolesammenligning", profile: "Profil", source: "Kilde", noResults: "Ingen skoler passer", loosenFilters: "Utvid filtrene eller tillat manglende verdier ved terskelfiltrering.",
       howToRead: "Slik leser du tallene", methodOne: "Sammenlign nasjonale prøver bare innen samme trinn og år. Små forskjeller kan ligge innenfor publisert usikkerhet.",
       methodTwo: "Trivsel og mobbing gjelder et bestemt trinn i Elevundersøkelsen, ikke alle elever ved skolen.", methodThree: "«—» betyr ikke publisert, skjermet eller manglende. Det betyr aldri null eller at noe er galt.",
@@ -60,7 +60,7 @@
       references: "Referanser", builtInStatus: "Innebygd datasett: 103 skoler; standard kartutvalg: 22.", importedStatus: "Importerte {count} skoler. Utvalgsmodus: {mode}.",
       visibleMode: "synlige Excel-rader", explicitMode: "Show on map", allMode: "alle", grade: "trinn", year: "år", unknown: "Ikke publisert", openSource: "Skolekilde",
       address: "Adresse", tests: "Prøver", survey: "Undersøkelse", ratio: "Lærertetthet", importError: "Arbeidsboken kunne ikke leses. Kontroller at den har arket «All schools» og kolonneoverskrifter.",
-      importSuccess: "XLSX importert", mapEmpty: "Ingen skoler med koordinater passer filtrene.", selectionHint: "Velg en kartmarkør eller tabellrad for å se skolen."
+      importSuccess: "XLSX importert", mapEmpty: "Ingen skoler med koordinater passer filtrene.", tileUnavailable: "Bakgrunnskartet fra OpenStreetMap er midlertidig utilgjengelig; skolemarkørene kan fortsatt brukes.", selectionHint: "Velg en kartmarkør eller tabellrad for å se skolen."
     }
   };
 
@@ -79,6 +79,10 @@
   let selectedId = null;
   let sortDirection = "asc";
   let dataSource = "builtin";
+  let leafletMap = null;
+  let markerLayer = null;
+  let tileStatus = "loading";
+  let mapIsEmpty = false;
 
   const $ = (selector) => document.querySelector(selector);
   const tr = (key) => (T[controls.language.value] || T.zh)[key] || key;
@@ -180,35 +184,102 @@
     return name === "Stavanger" ? "#205f8d" : name === "Sandnes" ? "#d8732f" : "#16837a";
   }
 
-  function renderMap(list) {
-    const map = $("#map");
+  function ensureMap() {
+    if (leafletMap) return leafletMap;
+    const container = $("#map");
+    if (!window.L) {
+      container.innerHTML = `<div class="map-empty-overlay"><p>${escapeHtml(tr("tileUnavailable"))}</p></div>`;
+      return null;
+    }
+    leafletMap = L.map(container, {
+      center: [58.93, 5.73],
+      zoom: 10,
+      minZoom: 7,
+      maxZoom: 19,
+      preferCanvas: true,
+      zoomControl: true,
+    });
+    const tileLayer = L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
+      maxZoom: 19,
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noreferrer">OpenStreetMap</a> contributors',
+    });
+    tileLayer.on("load", () => { tileStatus = "ready"; updateMapOverlays(mapIsEmpty); });
+    tileLayer.on("tileerror", () => { if (tileStatus !== "ready") { tileStatus = "error"; updateMapOverlays(mapIsEmpty); } });
+    tileLayer.addTo(leafletMap);
+    markerLayer = L.layerGroup().addTo(leafletMap);
+    L.control.scale({ imperial: false, position: "bottomleft" }).addTo(leafletMap);
+    return leafletMap;
+  }
+
+  function updateMapOverlays(isEmpty) {
+    const container = $("#map");
+    let emptyOverlay = container.querySelector(".map-empty-overlay");
+    if (isEmpty) {
+      if (!emptyOverlay) {
+        emptyOverlay = document.createElement("div");
+        emptyOverlay.className = "map-empty-overlay";
+        container.appendChild(emptyOverlay);
+      }
+      emptyOverlay.innerHTML = `<p>${escapeHtml(tr("mapEmpty"))}</p>`;
+    } else {
+      emptyOverlay?.remove();
+    }
+    let tileOverlay = container.querySelector(".map-tile-status");
+    if (tileStatus === "error" && !isEmpty) {
+      if (!tileOverlay) {
+        tileOverlay = document.createElement("div");
+        tileOverlay.className = "map-tile-status";
+        container.appendChild(tileOverlay);
+      }
+      tileOverlay.textContent = tr("tileUnavailable");
+    } else {
+      tileOverlay?.remove();
+    }
+  }
+
+  function renderMap(list, preserveView = false) {
+    const map = ensureMap();
+    if (!map || !markerLayer) return;
     const geocoded = list.filter((school) => typeof school.latitude === "number" && typeof school.longitude === "number");
+    mapIsEmpty = geocoded.length === 0;
+    markerLayer.clearLayers();
     if (!geocoded.length) {
-      map.innerHTML = `<div class="empty-state"><p>${escapeHtml(tr("mapEmpty"))}</p></div>`;
+      updateMapOverlays(true);
       $("#school-detail").textContent = tr("selectionHint");
       return;
     }
-    const reference = schools.filter((school) => typeof school.latitude === "number" && typeof school.longitude === "number");
-    const latitudes = reference.map((school) => school.latitude);
-    const longitudes = reference.map((school) => school.longitude);
-    const minLat = Math.min(...latitudes), maxLat = Math.max(...latitudes), minLon = Math.min(...longitudes), maxLon = Math.max(...longitudes);
-    const width = 840, height = 520, padding = 38;
-    const x = (lon) => padding + ((lon - minLon) / (maxLon - minLon || 1)) * (width - padding * 2);
-    const y = (lat) => height - padding - ((lat - minLat) / (maxLat - minLat || 1)) * (height - padding * 2);
-    const centerFor = (name) => {
-      const group = reference.filter((school) => school.municipality === name);
-      return { x: group.reduce((sum, item) => sum + x(item.longitude), 0) / group.length, y: group.reduce((sum, item) => sum + y(item.latitude), 0) / group.length };
-    };
-    const labels = ["Stavanger", "Sandnes", "Sola"].map((name) => { const point = centerFor(name); return `<text class="municipality-label" x="${point.x}" y="${point.y}" text-anchor="middle">${name}</text>`; }).join("");
-    const markers = geocoded.map((school) => `<circle class="school-marker${String(school.id) === String(selectedId) ? " selected" : ""}" data-school-id="${escapeHtml(school.id)}" cx="${x(school.longitude).toFixed(2)}" cy="${y(school.latitude).toFixed(2)}" r="7" fill="${municipalityColor(school.municipality)}" tabindex="0" role="button" aria-label="${escapeHtml(school.school)}"><title>${escapeHtml(school.school)} · ${escapeHtml(school.municipality)}</title></circle>`).join("");
-    map.innerHTML = `<svg viewBox="0 0 ${width} ${height}" role="img" aria-labelledby="map-title map-desc"><title id="map-title">${escapeHtml(tr("offlineMap"))}</title><desc id="map-desc">${geocoded.length} ${escapeHtml(tr("schools"))}</desc>
-      <text class="north" x="${width - 34}" y="28" text-anchor="middle">N</text><path d="M${width - 34} 34l-7 17h14z" fill="#536b7f" />
-      ${labels}${markers}<text class="axis-label" x="12" y="${height - 10}">${minLat.toFixed(2)}°–${maxLat.toFixed(2)}° N · ${minLon.toFixed(2)}°–${maxLon.toFixed(2)}° E</text></svg>`;
-    map.querySelectorAll(".school-marker").forEach((marker) => {
-      const activate = () => selectSchool(marker.dataset.schoolId, false);
-      marker.addEventListener("click", activate);
-      marker.addEventListener("keydown", (event) => { if (event.key === "Enter" || event.key === " ") { event.preventDefault(); activate(); } });
+    updateMapOverlays(false);
+    const bounds = L.latLngBounds();
+    geocoded.forEach((school) => {
+      const isSelected = String(school.id) === String(selectedId);
+      const marker = L.circleMarker([school.latitude, school.longitude], {
+        radius: isSelected ? 9 : 6,
+        color: isSelected ? "#f7b955" : "#ffffff",
+        weight: isSelected ? 4 : 2.5,
+        fillColor: municipalityColor(school.municipality),
+        fillOpacity: 0.95,
+        className: `school-marker${isSelected ? " selected" : ""}`,
+      });
+      const activate = () => selectSchool(school.id, false);
+      marker.bindTooltip(`${escapeHtml(school.school)}<br><small>${escapeHtml(school.municipality)}</small>`, { direction: "top", offset: [0, -5] });
+      marker.on("click", activate);
+      marker.on("add", () => {
+        const element = marker.getElement();
+        if (!element) return;
+        element.dataset.schoolId = school.id;
+        element.setAttribute("tabindex", "0");
+        element.setAttribute("role", "button");
+        element.setAttribute("aria-label", `${school.school}, ${school.municipality}`);
+        element.addEventListener("keydown", (event) => { if (event.key === "Enter" || event.key === " ") { event.preventDefault(); activate(); } });
+      });
+      marker.addTo(markerLayer);
+      bounds.extend([school.latitude, school.longitude]);
     });
+    if (!preserveView) {
+      if (geocoded.length === 1) map.setView(bounds.getCenter(), 14);
+      else map.fitBounds(bounds, { padding: [28, 28], maxZoom: 13 });
+    }
+    requestAnimationFrame(() => map.invalidateSize({ pan: false }));
     const selected = geocoded.find((school) => String(school.id) === String(selectedId));
     renderDetail(selected || geocoded[0]);
   }
@@ -224,8 +295,9 @@
   function selectSchool(id, scrollToMap) {
     selectedId = id;
     const school = filteredSchools.find((item) => String(item.id) === String(id));
-    renderMap(filteredSchools);
+    renderMap(filteredSchools, true);
     renderDetail(school);
+    if (school && leafletMap && typeof school.latitude === "number" && typeof school.longitude === "number") leafletMap.panTo([school.latitude, school.longitude], { animate: true });
     if (scrollToMap) $("#map").scrollIntoView({ behavior: "smooth", block: "center" });
   }
 
@@ -342,7 +414,7 @@
     const lifecycle = new AbortController();
     const allowedKeys = new Set(["mapMode", "municipality", "ownership", "grades", "testYear", "minReading", "minMaths", "minEnglish", "minWellbeing", "bullyingYear", "maxBullying", "maxRatio", "includeMissing"]);
     void Promise.resolve(context.registerTool({
-      name: "filter_schools", title: "Filter schools", description: "Apply filters to the visible school table and offline map.",
+      name: "filter_schools", title: "Filter schools", description: "Apply filters to the visible school table and OpenStreetMap.",
       inputSchema: { type: "object", additionalProperties: false, properties: {
         mapMode: { type: "string", enum: ["explicit", "visible", "all"] }, municipality: { type: "string" }, ownership: { type: "string", enum: ["", "public", "private"] }, grades: { type: "string" },
         testYear: { type: "string" }, minReading: { type: "number" }, minMaths: { type: "number" }, minEnglish: { type: "number" }, minWellbeing: { type: "number" },

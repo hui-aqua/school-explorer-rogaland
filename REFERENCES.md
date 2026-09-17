@@ -35,6 +35,14 @@ Skoleoversikten states that its upstream sources include Utdanningsdirektoratet,
 
 ## Software reference
 
+The interactive map uses vendored Leaflet 1.9.4 and OpenStreetMap Standard raster tiles:
+
+- Leaflet 1.9.4 API reference: https://leafletjs.com/reference
+- OpenStreetMap Standard tile usage policy: https://operations.osmfoundation.org/policies/tiles/
+- OpenStreetMap copyright and attribution: https://www.openstreetmap.org/copyright
+
+The site requests only tiles needed for the user’s current viewport, uses the required HTTPS endpoint and keeps visible attribution on the map. It does not prefetch or package OpenStreetMap tiles for offline use. The Leaflet license is stored at `dist/vendor/leaflet/LICENSE`.
+
 XLSX files are read in the browser with vendored SheetJS Community Edition 0.20.3:
 
 - Official standalone installation and vendoring: https://docs.sheetjs.com/docs/getting-started/installation/standalone/

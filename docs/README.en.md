@@ -8,13 +8,13 @@ Use the explorer to narrow a candidate list, identify missing evidence and prepa
 
 ## Use the explorer
 
-1. Open `dist/index.html` in a current Chrome, Edge or Firefox browser.
+1. Open the GitHub Pages site, or serve `dist/` locally with `python -m http.server 8000 --directory dist` and open `http://localhost:8000/`.
 2. The built-in dataset loads all 103 schools. `Show on map = TRUE` initially selects 22.
 3. Filter by municipality, ownership, grade span, test year, minimum reading/maths/English, minimum well-being, maximum bullying and maximum pupils per teacher.
 4. Select a marker or table row to inspect the address and cited school page.
 5. “Export current results as CSV” exports the same schools visible in both map and table.
 
-The map plots real latitude and longitude but does not load online tiles. It therefore works offline. The cited school page can be opened when online for full geographic context.
+The interactive map uses Leaflet with OpenStreetMap Standard tiles, so the basemap requires an internet connection. School markers, filters, the table and XLSX import use the project’s local data. If tiles cannot be reached, the interface reports this and retains the school markers on the map surface.
 
 ## Excel integration
 

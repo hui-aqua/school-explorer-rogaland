@@ -1,18 +1,24 @@
 # Rogaland School Explorer
 
-An offline-first school data explorer for **103 schools in Sola, Stavanger and Sandnes**. The map and comparison table share one filter state, and the browser can import a saved Excel workbook without uploading it to a server.
+A browser-based school data explorer for **103 schools in Sola, Stavanger and Sandnes**. The OpenStreetMap map and comparison table share one filter state, and the browser can import a saved Excel workbook without uploading it to a server.
 
 **Languages:** [中文](docs/README.zh-CN.md) · [English](docs/README.en.md) · [Norsk](docs/README.nb-NO.md)
 
 ## Open the explorer
 
-Open [`dist/index.html`](dist/index.html) in a current version of Chrome, Edge or Firefox. No build step or web server is required. The coordinate map and the vendored XLSX reader work offline.
+Use the [GitHub Pages site](https://hui-aqua.github.io/school-explorer-rogaland/) or serve `dist/` locally:
+
+```powershell
+python -m http.server 8000 --directory dist
+```
+
+Then open `http://localhost:8000/` in Chrome, Edge or Firefox. The OpenStreetMap basemap needs an internet connection. School data, filtering, XLSX import and the vendored Leaflet/XLSX code run in the browser.
 
 The built-in dataset contains all 103 schools. The default `Show on map = TRUE` selection contains the 22 rows that were visible in the supplied workbook.
 
 ## Repository structure
 
-- `dist/` — interactive trilingual site, offline map and downloadable workbooks
+- `dist/` — interactive trilingual site, OpenStreetMap map and downloadable workbooks
 - `data/original/` — supplied source workbook, unchanged
 - `data/Sola_Stavanger_Sandnes_schools_map_ready.xlsx` — map-ready workbook with coordinates and `Show on map`
 - `data/schools.json`, `data/schools.csv` — normalized current snapshot

@@ -8,13 +8,13 @@
 
 ## 直接使用
 
-1. 打开 `dist/index.html`。Chrome、Edge 或 Firefox 均可。
+1. 打开 GitHub Pages 网站；也可以运行 `python -m http.server 8000 --directory dist`，再用 Chrome、Edge 或 Firefox 打开 `http://localhost:8000/`。
 2. 页面默认使用内置的103所学校数据，并按 `Show on map = TRUE` 显示22所候选学校。
 3. 可按市镇、公立/私立、年级范围、考试年份、阅读/数学/英语最低分、幸福感、欺凌率和学生/教师比例筛选。
 4. 点击地图标记或表格行查看学校地址和来源页。
 5. “导出当前结果 CSV”只导出当前地图和表格共同显示的学校。
 
-地图按真实经纬度绘制，但不加载在线瓦片或第三方底图，因此本地下载后仍能离线使用。每所学校同时提供 OpenStreetMap/Skoleoversikten 来源入口，可在联网时查看完整地理环境。
+交互地图使用仓库内置的 Leaflet 和 OpenStreetMap 标准瓦片，底图需要联网。学校标记、筛选、表格与 XLSX 导入仍使用项目本地数据；如果瓦片暂时无法访问，页面会给出提示，并继续保留学校点位。
 
 ## Excel 联动
 

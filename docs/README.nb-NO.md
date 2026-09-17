@@ -8,13 +8,13 @@ Utforskeren kan brukes til å avgrense aktuelle skoler, finne manglende informas
 
 ## Bruk
 
-1. Åpne `dist/index.html` i en oppdatert versjon av Chrome, Edge eller Firefox.
+1. Åpne GitHub Pages-siden, eller kjør `python -m http.server 8000 --directory dist` og åpne `http://localhost:8000/` i Chrome, Edge eller Firefox.
 2. Det innebygde datasettet inneholder alle 103 skolene. `Show on map = TRUE` velger først 22 skoler.
 3. Filtrer på kommune, eierform, trinn, prøveår, minste resultat i lesing/regning/engelsk, minste trivsel, høyeste mobbeandel og høyeste antall elever per lærer.
 4. Velg en markør eller tabellrad for å se adresse og kildeside.
 5. «Eksporter gjeldende resultat som CSV» eksporterer de samme skolene som vises i kart og tabell.
 
-Kartet bruker faktiske bredde- og lengdegrader, men laster ikke nettkart. Det virker derfor frakoblet. Kildesiden kan åpnes på nett for mer geografisk sammenheng.
+Det interaktive kartet bruker Leaflet og OpenStreetMaps standardfliser, og bakgrunnskartet krever derfor nettilgang. Skolemarkører, filtre, tabellen og XLSX-importen bruker lokale prosjektdata. Hvis kartflisene ikke kan nås, vises en melding mens skolemarkørene beholdes.
 
 ## Kobling til Excel
 
