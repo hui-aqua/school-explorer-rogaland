@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Explore and compare schools in Sola, Stavanger and Sandnes with synchronized map, table and Excel filters." />
+    <title>Rogaland School Explorer</title>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23152f49'/%3E%3Cpath d='M16 5c-4.1 0-7.5 3.2-7.5 7.2 0 5.4 7.5 14.8 7.5 14.8s7.5-9.4 7.5-14.8C23.5 8.2 20.1 5 16 5Z' fill='%23f7b955'/%3E%3Ccircle cx='16' cy='12.5' r='3' fill='%23152f49'/%3E%3C/svg%3E" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#results">Skip to results</a>
+    <header class="topbar">
+      <div>
+        <p class="eyebrow" data-i18n="region">Sola · Stavanger · Sandnes</p>
+        <h1 data-i18n="title">学校数据探索器</h1>
+      </div>
+      <div class="topbar-actions">
+        <label class="language-control">
+          <span data-i18n="language">语言</span>
+          <select id="language" aria-label="Language">
+            <option value="zh">中文</option>
+            <option value="en">English</option>
+            <option value="nb">Norsk</option>
+          </select>
+        </label>
+        <a class="quiet-link" href="./downloads/Sola_Stavanger_Sandnes_schools_map_ready.xlsx" data-i18n="downloadWorkbook">下载地图版 XLSX</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="toolbar" aria-labelledby="filters-heading">
+        <div class="toolbar-heading">
+          <div>
+            <h2 id="filters-heading" data-i18n="filters">筛选学校</h2>
+            <p id="dataset-status" class="status-line" aria-live="polite"></p>
+          </div>
+          <div class="button-row">
+            <label class="button primary" for="xlsx-file" data-i18n="importXlsx">导入 XLSX</label>
+            <input id="xlsx-file" type="file" accept=".xlsx,.xls,.xlsb" hidden />
+            <button id="reset" class="button secondary" type="button" data-i18n="reset">重置</button>
+          </div>
+        </div>
+
+        <div class="filter-grid">
+          <label>
+            <span data-i18n="mapSelection">地图选择</span>
+            <select id="map-mode">
+              <option value="explicit" data-i18n="mapExplicit">Show on map = TRUE</option>
+              <option value="visible" data-i18n="mapVisible">Excel 已保存的可见行</option>
+              <option value="all" data-i18n="mapAll">全部学校</option>
+            </select>
+          </label>
+          <label>
+            <span data-i18n="municipality">市镇</span>
+            <select id="municipality"><option value="" data-i18n="all">全部</option></select>
+          </label>
+          <label>
+            <span data-i18n="ownership">所有制</span>
+            <select id="ownership">
+              <option value="" data-i18n="all">全部</option>
+              <option value="public" data-i18n="public">公立</option>
+              <option value="private" data-i18n="private">私立</option>
+            </select>
+          </label>
+          <label>
+            <span data-i18n="grades">年级范围</span>
+            <select id="grades"><option value="" data-i18n="all">全部</option></select>
+          </label>
+          <label>
+            <span data-i18n="testYear">考试年份</span>
+            <select id="test-year"><option value="" data-i18n="allYears">全部年份</option></select>
+          </label>
+          <label>
+            <span data-i18n="minReading">阅读最低分</span>
+            <input id="min-reading" type="number" min="0" max="100" step="1" placeholder="—" />
+          </label>
+          <label>
+            <span data-i18n="minMaths">数学最低分</span>
+            <input id="min-maths" type="number" min="0" max="100" step="1" placeholder="—" />
+          </label>
+          <label>
+            <span data-i18n="minEnglish">英语最低分</span>
+            <input id="min-english" type="number" min="0" max="100" step="1" placeholder="—" />
+          </label>
+          <label>
+            <span data-i18n="minWellbeing">幸福感最低值</span>
+            <input id="min-wellbeing" type="number" min="1" max="5" step="0.1" placeholder="—" />
+          </label>
+          <label>
+            <span data-i18n="bullyingYear">欺凌数据年份</span>
+            <select id="bullying-year"><option value="" data-i18n="chooseYear">选择年份后筛选</option></select>
+          </label>
+          <label>
+            <span data-i18n="maxBullying">欺凌率最高值 (%)</span>
+            <input id="max-bullying" type="number" min="0" max="100" step="0.1" placeholder="—" disabled />
+          </label>
+          <label>
+            <span data-i18n="maxRatio">每名教师学生数最高值</span>
+            <input id="max-ratio" type="number" min="0" max="50" step="0.1" placeholder="—" />
+          </label>
+        </div>
+        <label class="check-row">
+          <input id="include-missing" type="checkbox" />
+          <span data-i18n="includeMissing">启用阈值筛选时保留缺失值</span>
+        </label>
+        <p class="method-note" data-i18n="yearWarning">欺凌率只有在选择同一学年后才能设置阈值，避免把不同年份直接混排。缺失值不会被当作零。</p>
+      </section>
+
+      <section id="results" class="workspace" aria-labelledby="results-heading">
+        <div class="map-panel">
+          <div class="panel-heading">
+            <div>
+              <p class="eyebrow" data-i18n="offlineMap">离线坐标地图</p>
+              <h2 id="results-heading"><span id="result-count">0</span> <span data-i18n="schools">所学校</span></h2>
+            </div>
+            <div class="legend" aria-label="Municipality legend">
+              <span><i class="dot stavanger"></i>Stavanger</span>
+              <span><i class="dot sandnes"></i>Sandnes</span>
+              <span><i class="dot sola"></i>Sola</span>
+            </div>
+          </div>
+          <div id="map" class="map" role="application" aria-label="Interactive school coordinate map"></div>
+          <div id="school-detail" class="school-detail" aria-live="polite"></div>
+        </div>
+
+        <aside class="summary-panel" aria-label="Filtered summary">
+          <h2 data-i18n="currentSelection">当前选择</h2>
+          <dl class="metrics">
+            <div><dt data-i18n="schools">学校</dt><dd id="summary-schools">0</dd></div>
+            <div><dt data-i18n="pupils">学生</dt><dd id="summary-pupils">—</dd></div>
+            <div><dt data-i18n="publicShare">公立占比</dt><dd id="summary-public">—</dd></div>
+            <div><dt data-i18n="withBullying">同年欺凌数据</dt><dd id="summary-bullying">—</dd></div>
+          </dl>
+          <div class="sort-controls">
+            <label>
+              <span data-i18n="sortBy">排序</span>
+              <select id="sort-key">
+                <option value="school" data-i18n="schoolName">学校名称</option>
+                <option value="reading" data-i18n="reading">阅读</option>
+                <option value="maths" data-i18n="maths">数学</option>
+                <option value="english" data-i18n="english">英语</option>
+                <option value="wellbeing" data-i18n="wellbeing">幸福感</option>
+                <option value="bullying" data-i18n="bullying">欺凌率</option>
+                <option value="pupilsPerTeacher" data-i18n="teacherRatio">学生/教师</option>
+              </select>
+            </label>
+            <button id="sort-direction" class="button icon" type="button" aria-label="Toggle sort direction">↑</button>
+          </div>
+          <button id="export-csv" class="button secondary full" type="button" data-i18n="exportCsv">导出当前结果 CSV</button>
+          <p class="small-note" data-i18n="mapNote">地图按经纬度绘制，不加载在线底图，因此下载后也可离线使用。</p>
+        </aside>
+      </section>
+
+      <section class="table-panel" aria-labelledby="table-heading">
+        <div class="panel-heading">
+          <div>
+            <p class="eyebrow" data-i18n="traceable">逐项保留年份、年级与来源</p>
+            <h2 id="table-heading" data-i18n="comparisonTable">学校比较表</h2>
+          </div>
+        </div>
+        <div class="table-scroll">
+          <table>
+            <thead>
+              <tr>
+                <th data-i18n="schoolName">学校</th>
+                <th data-i18n="profile">类型</th>
+                <th data-i18n="pupils">学生</th>
+                <th data-i18n="reading">阅读</th>
+                <th data-i18n="maths">数学</th>
+                <th data-i18n="english">英语</th>
+                <th data-i18n="wellbeing">幸福感</th>
+                <th data-i18n="bullying">欺凌率</th>
+                <th data-i18n="teacherRatio">学生/教师</th>
+                <th data-i18n="source">来源</th>
+              </tr>
+            </thead>
+            <tbody id="school-rows"></tbody>
+          </table>
+        </div>
+        <div id="empty-state" class="empty-state" hidden>
+          <h3 data-i18n="noResults">没有符合条件的学校</h3>
+          <p data-i18n="loosenFilters">请放宽筛选条件，或允许阈值筛选保留缺失值。</p>
+        </div>
+      </section>
+
+      <section class="method-panel" aria-labelledby="method-heading">
+        <h2 id="method-heading" data-i18n="howToRead">如何解读</h2>
+        <div class="method-grid">
+          <p data-i18n="methodOne">国家测试分数只比较相同年级和学年；小样本差异可能落在不确定范围内。</p>
+          <p data-i18n="methodTwo">幸福感和欺凌来自指定年级的学生调查，不代表全校所有学生。</p>
+          <p data-i18n="methodThree">“—”表示未公布、隐私屏蔽或缺失，不表示零，也不表示学校存在问题。</p>
+        </div>
+        <p><a href="https://skoleoversikten.no/om" target="_blank" rel="noreferrer" data-i18n="methodSource">查看 Skoleoversikten 的数据方法</a></p>
+      </section>
+    </main>
+
+    <footer>
+      <p data-i18n="footer">数据快照：2026-09-16。学校级指标来自逐校引用的 Skoleoversikten 页面；其上游来源包括 Udir 和公共登记。</p>
+      <p><a href="./REFERENCES.md" data-i18n="references">参考资料</a> · <a href="https://github.com/hui-aqua/school-explorer-rogaland">GitHub</a></p>
+    </footer>
+
+    <script src="./vendor/xlsx.full.min.js"></script>
+    <script src="./filter-core.js"></script>
+    <script src="./app-data.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>

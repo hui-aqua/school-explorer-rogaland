@@ -1,0 +1,929 @@
+{
+  "816578892": {
+    "address": "Jønningsheiveien 42, 4316 SANDNES",
+    "latitude": 58.85992,
+    "longitude": 5.72297,
+    "municipality": "Sandnes",
+    "organisation_number": "816578892",
+    "school": "Wang Ung Sandnes AS",
+    "source_url": "https://skoleoversikten.no/skoler/816578892/wang-ung-sandnes-as"
+  },
+  "820332342": {
+    "address": "Gauselbakken 107, 4032 STAVANGER",
+    "latitude": 58.89721,
+    "longitude": 5.73376,
+    "municipality": "Stavanger",
+    "organisation_number": "820332342",
+    "school": "Biss Gausel Sti",
+    "source_url": "https://skoleoversikten.no/skoler/820332342/biss-gausel-sti"
+  },
+  "834121832": {
+    "address": "Ryfylkegata 49, 4014 STAVANGER",
+    "latitude": 58.96706,
+    "longitude": 5.75769,
+    "municipality": "Stavanger",
+    "organisation_number": "834121832",
+    "school": "Lervig skole",
+    "source_url": "https://skoleoversikten.no/skoler/834121832/lervig-skole"
+  },
+  "874610852": {
+    "address": "Apalstøveien 84, 4308 SANDNES",
+    "latitude": 58.89687,
+    "longitude": 6.01865,
+    "municipality": "Sandnes",
+    "organisation_number": "874610852",
+    "school": "Høle barne- og ungdomsskule",
+    "source_url": "https://skoleoversikten.no/skoler/874610852/hole-barne-og-ungdomsskule"
+  },
+  "874611492": {
+    "address": "Hillevågsveien 82, 4016 STAVANGER",
+    "latitude": 58.94385,
+    "longitude": 5.74545,
+    "municipality": "Stavanger",
+    "organisation_number": "874611492",
+    "school": "Kvaleberg skole",
+    "source_url": "https://skoleoversikten.no/skoler/874611492/kvaleberg-skole"
+  },
+  "874611522": {
+    "address": "Tjensvollveien 54, 4021 STAVANGER",
+    "latitude": 58.95134,
+    "longitude": 5.70436,
+    "municipality": "Stavanger",
+    "organisation_number": "874611522",
+    "school": "Tjensvoll skole",
+    "source_url": "https://skoleoversikten.no/skoler/874611522/tjensvoll-skole"
+  },
+  "874611662": {
+    "address": "Soltunveien 28, 4026 STAVANGER",
+    "latitude": 58.98032,
+    "longitude": 5.70285,
+    "municipality": "Stavanger",
+    "organisation_number": "874611662",
+    "school": "Byfjord skole",
+    "source_url": "https://skoleoversikten.no/skoler/874611662/byfjord-skole"
+  },
+  "874611832": {
+    "address": "Terje Vigens vei 1, 4083 HUNDVÅG",
+    "latitude": 59.00235,
+    "longitude": 5.72701,
+    "municipality": "Stavanger",
+    "organisation_number": "874611832",
+    "school": "Skeie skole",
+    "source_url": "https://skoleoversikten.no/skoler/874611832/skeie-skole"
+  },
+  "874735582": {
+    "address": "Heddeveien 143, 4034 STAVANGER",
+    "latitude": 58.89919,
+    "longitude": 5.72318,
+    "municipality": "Stavanger",
+    "organisation_number": "874735582",
+    "school": "Gautesete skole",
+    "source_url": "https://skoleoversikten.no/skoler/874735582/gautesete-skole"
+  },
+  "875275542": {
+    "address": "Skolevegen 14, 4055 SOLA",
+    "latitude": 58.89561,
+    "longitude": 5.65859,
+    "municipality": "Sola",
+    "organisation_number": "875275542",
+    "school": "Sola ungdomsskole",
+    "source_url": "https://skoleoversikten.no/skoler/875275542/sola-ungdomsskole"
+  },
+  "913461746": {
+    "address": "Forusbeen 35, 4034 STAVANGER",
+    "latitude": 58.89334,
+    "longitude": 5.72333,
+    "municipality": "Stavanger",
+    "organisation_number": "913461746",
+    "school": "Norlights montessoriskole Stavanger AS",
+    "source_url": "https://skoleoversikten.no/skoler/913461746/norlights-montessoriskole-stavanger-as"
+  },
+  "915121624": {
+    "address": "Prinsens vei 8, 4315 SANDNES",
+    "latitude": 58.88292,
+    "longitude": 5.74173,
+    "municipality": "Sandnes",
+    "organisation_number": "915121624",
+    "school": "Sandnes International School AS",
+    "source_url": "https://skoleoversikten.no/skoler/915121624/sandnes-international-school-as"
+  },
+  "916579632": {
+    "address": "Gunnar Warebergs gate 5, 4021 STAVANGER",
+    "latitude": 58.9546,
+    "longitude": 5.70006,
+    "municipality": "Stavanger",
+    "organisation_number": "916579632",
+    "school": "Wang Ung Stavanger AS",
+    "source_url": "https://skoleoversikten.no/skoler/916579632/wang-ung-stavanger-as"
+  },
+  "918535705": {
+    "address": "Tanke Svilands gate 73, 4007 STAVANGER",
+    "latitude": 58.97514,
+    "longitude": 5.71299,
+    "municipality": "Stavanger",
+    "organisation_number": "918535705",
+    "school": "Biss Sentrum AS",
+    "source_url": "https://skoleoversikten.no/skoler/918535705/biss-sentrum-as"
+  },
+  "923614648": {
+    "address": "Lyngholen 5, 4324 SANDNES",
+    "latitude": 58.82187,
+    "longitude": 5.74469,
+    "municipality": "Sandnes",
+    "organisation_number": "923614648",
+    "school": "Bogafjell ungdomsskole",
+    "source_url": "https://skoleoversikten.no/skoler/923614648/bogafjell-ungdomsskole"
+  },
+  "925640409": {
+    "address": "Skaraveien 100, 4326 SANDNES",
+    "latitude": 58.83847,
+    "longitude": 5.775,
+    "municipality": "Sandnes",
+    "organisation_number": "925640409",
+    "school": "Kleivane skole",
+    "source_url": "https://skoleoversikten.no/skoler/925640409/kleivane-skole"
+  },
+  "925910325": {
+    "address": "Skadbergbakken 79, 4050 SOLA",
+    "latitude": 58.88483,
+    "longitude": 5.66999,
+    "municipality": "Sola",
+    "organisation_number": "925910325",
+    "school": "Kjerrberget ungdomsskole",
+    "source_url": "https://skoleoversikten.no/skoler/925910325/kjerrberget-ungdomsskole"
+  },
+  "973857622": {
+    "address": "Porsmyrveien 33, 4314 SANDNES",
+    "latitude": 58.88097,
+    "longitude": 5.73655,
+    "municipality": "Sandnes",
+    "organisation_number": "973857622",
+    "school": "Porsholen skole",
+    "source_url": "https://skoleoversikten.no/skoler/973857622/porsholen-skole"
+  },
+  "973857770": {
+    "address": "Sandnesveien 306, 4312 SANDNES",
+    "latitude": 58.86296,
+    "longitude": 5.7023,
+    "municipality": "Sandnes",
+    "organisation_number": "973857770",
+    "school": "Senter for Trygt og Godt Læringsmiljø",
+    "source_url": "https://skoleoversikten.no/skoler/973857770/senter-for-trygt-og-godt-laeringsmiljo"
+  },
+  "973863843": {
+    "address": "Haugesundsgata 27, 4014 STAVANGER",
+    "latitude": 58.96731,
+    "longitude": 5.75493,
+    "municipality": "Stavanger",
+    "organisation_number": "973863843",
+    "school": "Johannes læringssenter Flerspråklige Barn",
+    "source_url": "https://skoleoversikten.no/skoler/973863843/johannes-laeringssenter-flerspraklige-barn"
+  },
+  "974154307": {
+    "address": "Skolevollen 19, 4017 STAVANGER",
+    "latitude": 58.93885,
+    "longitude": 5.73421,
+    "municipality": "Stavanger",
+    "organisation_number": "974154307",
+    "school": "Steinerskolen Stavanger grunnskole",
+    "source_url": "https://skoleoversikten.no/skoler/974154307/steinerskolen-stavanger-grunnskole"
+  },
+  "974610736": {
+    "address": "Lerkeveien 9, 4314 SANDNES",
+    "latitude": 58.87585,
+    "longitude": 5.73613,
+    "municipality": "Sandnes",
+    "organisation_number": "974610736",
+    "school": "Lura skole",
+    "source_url": "https://skoleoversikten.no/skoler/974610736/lura-skole"
+  },
+  "974610744": {
+    "address": "Postveien 65, 4307 SANDNES",
+    "latitude": 58.85623,
+    "longitude": 5.73342,
+    "municipality": "Sandnes",
+    "organisation_number": "974610744",
+    "school": "Trones skole",
+    "source_url": "https://skoleoversikten.no/skoler/974610744/trones-skole"
+  },
+  "974610752": {
+    "address": "Solaveien 84, 4316 SANDNES",
+    "latitude": 58.85583,
+    "longitude": 5.71595,
+    "municipality": "Sandnes",
+    "organisation_number": "974610752",
+    "school": "Stangeland skole",
+    "source_url": "https://skoleoversikten.no/skoler/974610752/stangeland-skole"
+  },
+  "974610779": {
+    "address": "Killinglandveien 24, 4312 SANDNES",
+    "latitude": 58.83321,
+    "longitude": 5.66012,
+    "municipality": "Sandnes",
+    "organisation_number": "974610779",
+    "school": "Malmheim skole",
+    "source_url": "https://skoleoversikten.no/skoler/974610779/malmheim-skole"
+  },
+  "974610787": {
+    "address": "Gamle Asheimvei 9, 4318 SANDNES",
+    "latitude": 58.84072,
+    "longitude": 5.71629,
+    "municipality": "Sandnes",
+    "organisation_number": "974610787",
+    "school": "Sandved skole",
+    "source_url": "https://skoleoversikten.no/skoler/974610787/sandved-skole"
+  },
+  "974610795": {
+    "address": "Telefonveien 1, 4322 SANDNES",
+    "latitude": 58.8233182,
+    "longitude": 5.7112262,
+    "municipality": "Sandnes",
+    "organisation_number": "974610795",
+    "school": "Ganddal skole",
+    "source_url": "https://skoleoversikten.no/skoler/974610795/ganddal-skole"
+  },
+  "974610809": {
+    "address": "Åslandsbakken 22, 4332 FIGGJO",
+    "latitude": 58.78729,
+    "longitude": 5.80561,
+    "municipality": "Sandnes",
+    "organisation_number": "974610809",
+    "school": "Figgjo skole",
+    "source_url": "https://skoleoversikten.no/skoler/974610809/figgjo-skole"
+  },
+  "974610817": {
+    "address": "Austråttveien 1, 4306 SANDNES",
+    "latitude": 58.84191,
+    "longitude": 5.73992,
+    "municipality": "Sandnes",
+    "organisation_number": "974610817",
+    "school": "Austrått skole",
+    "source_url": "https://skoleoversikten.no/skoler/974610817/austratt-skole"
+  },
+  "974610825": {
+    "address": "Hanamyrveien 21, 4328 SANDNES",
+    "latitude": 58.8555,
+    "longitude": 5.77538,
+    "municipality": "Sandnes",
+    "organisation_number": "974610825",
+    "school": "Hana skole",
+    "source_url": "https://skoleoversikten.no/skoler/974610825/hana-skole"
+  },
+  "974610833": {
+    "address": "Svilandveien 213, 4337 SANDNES",
+    "latitude": 58.82789,
+    "longitude": 5.82066,
+    "municipality": "Sandnes",
+    "organisation_number": "974610833",
+    "school": "Sviland skule",
+    "source_url": "https://skoleoversikten.no/skoler/974610833/sviland-skule"
+  },
+  "974610841": {
+    "address": "Riskaveien 7, 4310 HOMMERSÅK",
+    "latitude": 58.92608,
+    "longitude": 5.8496,
+    "municipality": "Sandnes",
+    "organisation_number": "974610841",
+    "school": "Hommersåk skole",
+    "source_url": "https://skoleoversikten.no/skoler/974610841/hommersak-skole"
+  },
+  "974610876": {
+    "address": "Myrullveien 1, 4326 SANDNES",
+    "latitude": 58.8442,
+    "longitude": 5.75451,
+    "municipality": "Sandnes",
+    "organisation_number": "974610876",
+    "school": "Iglemyr skole",
+    "source_url": "https://skoleoversikten.no/skoler/974610876/iglemyr-skole"
+  },
+  "974610892": {
+    "address": "Smeaheiveien 24, 4317 SANDNES",
+    "latitude": 58.86182,
+    "longitude": 5.72829,
+    "municipality": "Sandnes",
+    "organisation_number": "974610892",
+    "school": "Giske ungdomsskole",
+    "source_url": "https://skoleoversikten.no/skoler/974610892/giske-ungdomsskole"
+  },
+  "974610906": {
+    "address": "Vårveien 9, 4319 SANDNES",
+    "latitude": 58.84747,
+    "longitude": 5.72032,
+    "municipality": "Sandnes",
+    "organisation_number": "974610906",
+    "school": "Skeiane ungdomsskole",
+    "source_url": "https://skoleoversikten.no/skoler/974610906/skeiane-ungdomsskole"
+  },
+  "974610914": {
+    "address": "Austråttveien 11, 4306 SANDNES",
+    "latitude": 58.8436,
+    "longitude": 5.74179,
+    "municipality": "Sandnes",
+    "organisation_number": "974610914",
+    "school": "Høyland ungdomsskole",
+    "source_url": "https://skoleoversikten.no/skoler/974610914/hoyland-ungdomsskole"
+  },
+  "974610922": {
+    "address": "Eddaveien 25, 4327 SANDNES",
+    "latitude": 58.85331,
+    "longitude": 5.765,
+    "municipality": "Sandnes",
+    "organisation_number": "974610922",
+    "school": "Øygard ungdomsskole",
+    "source_url": "https://skoleoversikten.no/skoler/974610922/oygard-ungdomsskole"
+  },
+  "974610965": {
+    "address": "Asperholen 89, 4329 SANDNES",
+    "latitude": 58.86538,
+    "longitude": 5.76283,
+    "municipality": "Sandnes",
+    "organisation_number": "974610965",
+    "school": "Aspervika skole",
+    "source_url": "https://skoleoversikten.no/skoler/974610965/aspervika-skole"
+  },
+  "974610973": {
+    "address": "Nøtteskjellveien 7, 4310 HOMMERSÅK",
+    "latitude": 58.92644,
+    "longitude": 5.84626,
+    "municipality": "Sandnes",
+    "organisation_number": "974610973",
+    "school": "Riska ungdomsskole",
+    "source_url": "https://skoleoversikten.no/skoler/974610973/riska-ungdomsskole"
+  },
+  "974611120": {
+    "address": "Kristines vei 1, 4311 HOMMERSÅK",
+    "latitude": 58.91924,
+    "longitude": 5.8712,
+    "municipality": "Sandnes",
+    "organisation_number": "974611120",
+    "school": "Maudland skole",
+    "source_url": "https://skoleoversikten.no/skoler/974611120/maudland-skole"
+  },
+  "974611147": {
+    "address": "Kamskjellveien 2, 4310 HOMMERSÅK",
+    "latitude": 58.92704,
+    "longitude": 5.83925,
+    "municipality": "Sandnes",
+    "organisation_number": "974611147",
+    "school": "Kyrkjevollen skole",
+    "source_url": "https://skoleoversikten.no/skoler/974611147/kyrkjevollen-skole"
+  },
+  "974611244": {
+    "address": "Austbøsvingene 50, 4085 HUNDVÅG",
+    "latitude": 58.9953,
+    "longitude": 5.73553,
+    "municipality": "Stavanger",
+    "organisation_number": "974611244",
+    "school": "Austbø skole",
+    "source_url": "https://skoleoversikten.no/skoler/974611244/austbo-skole"
+  },
+  "974611341": {
+    "address": "Folkvangveien 50, 4034 STAVANGER",
+    "latitude": 58.90037,
+    "longitude": 5.71442,
+    "municipality": "Stavanger",
+    "organisation_number": "974611341",
+    "school": "Godeset skole",
+    "source_url": "https://skoleoversikten.no/skoler/974611341/godeset-skole"
+  },
+  "974611376": {
+    "address": "Nordvikveien 23A, 4085 HUNDVÅG",
+    "latitude": 58.99338,
+    "longitude": 5.76377,
+    "municipality": "Stavanger",
+    "organisation_number": "974611376",
+    "school": "Roaldsøy skole",
+    "source_url": "https://skoleoversikten.no/skoler/974611376/roaldsoy-skole"
+  },
+  "974611384": {
+    "address": "Sørstrandveien 38, 4076 VASSØY",
+    "latitude": 58.9977,
+    "longitude": 5.78584,
+    "municipality": "Stavanger",
+    "organisation_number": "974611384",
+    "school": "Vassøy skole",
+    "source_url": "https://skoleoversikten.no/skoler/974611384/vassoy-skole"
+  },
+  "974611406": {
+    "address": "Gamle Dusavikveien 4, 4029 STAVANGER",
+    "latitude": 58.99561,
+    "longitude": 5.6828,
+    "municipality": "Stavanger",
+    "organisation_number": "974611406",
+    "school": "Vardenes skole",
+    "source_url": "https://skoleoversikten.no/skoler/974611406/vardenes-skole"
+  },
+  "974611414": {
+    "address": "Skipsbyggergata 19A, 4077 HUNDVÅG",
+    "latitude": 58.98568,
+    "longitude": 5.73477,
+    "municipality": "Stavanger",
+    "organisation_number": "974611414",
+    "school": "Buøy skole",
+    "source_url": "https://skoleoversikten.no/skoler/974611414/buoy-skole"
+  },
+  "974611422": {
+    "address": "Nylundsgata 1, 4014 STAVANGER",
+    "latitude": 58.96482,
+    "longitude": 5.7501,
+    "municipality": "Stavanger",
+    "organisation_number": "974611422",
+    "school": "Nylund skole",
+    "source_url": "https://skoleoversikten.no/skoler/974611422/nylund-skole"
+  },
+  "974611430": {
+    "address": "Sandeidgata 25, 4012 STAVANGER",
+    "latitude": 58.96641,
+    "longitude": 5.74178,
+    "municipality": "Stavanger",
+    "organisation_number": "974611430",
+    "school": "Storhaug skole",
+    "source_url": "https://skoleoversikten.no/skoler/974611430/storhaug-skole"
+  },
+  "974611449": {
+    "address": "Schives gate 21, 4010 STAVANGER",
+    "latitude": 58.96224,
+    "longitude": 5.73271,
+    "municipality": "Stavanger",
+    "organisation_number": "974611449",
+    "school": "Våland skole",
+    "source_url": "https://skoleoversikten.no/skoler/974611449/valand-skole"
+  },
+  "974611457": {
+    "address": "Dues vei 35, 4023 STAVANGER",
+    "latitude": 58.96494,
+    "longitude": 5.70729,
+    "municipality": "Stavanger",
+    "organisation_number": "974611457",
+    "school": "Eiganes skole",
+    "source_url": "https://skoleoversikten.no/skoler/974611457/eiganes-skole"
+  },
+  "974611465": {
+    "address": "Kampensgata 33, 4024 STAVANGER",
+    "latitude": 58.97211,
+    "longitude": 5.71643,
+    "municipality": "Stavanger",
+    "organisation_number": "974611465",
+    "school": "Kampen skole",
+    "source_url": "https://skoleoversikten.no/skoler/974611465/kampen-skole"
+  },
+  "974611473": {
+    "address": "Hjalmar Johansens gate 32, 4019 STAVANGER",
+    "latitude": 58.94713,
+    "longitude": 5.72569,
+    "municipality": "Stavanger",
+    "organisation_number": "974611473",
+    "school": "Auglend skole",
+    "source_url": "https://skoleoversikten.no/skoler/974611473/auglend-skole"
+  },
+  "974611481": {
+    "address": "Hjalmar Johansens gate 13, 4019 STAVANGER",
+    "latitude": 58.95014,
+    "longitude": 5.72398,
+    "municipality": "Stavanger",
+    "organisation_number": "974611481",
+    "school": "Ullandhaug skole",
+    "source_url": "https://skoleoversikten.no/skoler/974611481/ullandhaug-skole"
+  },
+  "974611503": {
+    "address": "Auglendsbakken 27, 4018 STAVANGER",
+    "latitude": 58.93094,
+    "longitude": 5.73281,
+    "municipality": "Stavanger",
+    "organisation_number": "974611503",
+    "school": "Vaulen skole",
+    "source_url": "https://skoleoversikten.no/skoler/974611503/vaulen-skole"
+  },
+  "974611511": {
+    "address": "Ordfører Askelands gate 11, 4020 STAVANGER",
+    "latitude": 58.91515,
+    "longitude": 5.72432,
+    "municipality": "Stavanger",
+    "organisation_number": "974611511",
+    "school": "Jåtten skole",
+    "source_url": "https://skoleoversikten.no/skoler/974611511/jatten-skole"
+  },
+  "974611538": {
+    "address": "Randabergveien 165, 4027 STAVANGER",
+    "latitude": 58.98373,
+    "longitude": 5.67992,
+    "municipality": "Stavanger",
+    "organisation_number": "974611538",
+    "school": "Tasta skole",
+    "source_url": "https://skoleoversikten.no/skoler/974611538/tasta-skole"
+  },
+  "974611546": {
+    "address": "Hundvågveien 75, 4085 HUNDVÅG",
+    "latitude": 58.99649,
+    "longitude": 5.7327,
+    "municipality": "Stavanger",
+    "organisation_number": "974611546",
+    "school": "Hundvåg skole",
+    "source_url": "https://skoleoversikten.no/skoler/974611546/hundvag-skole"
+  },
+  "974611562": {
+    "address": "Rappveien 17, 4041 HAFRSFJORD",
+    "latitude": 58.95026,
+    "longitude": 5.67873,
+    "municipality": "Stavanger",
+    "organisation_number": "974611562",
+    "school": "Madlamark skole",
+    "source_url": "https://skoleoversikten.no/skoler/974611562/madlamark-skole"
+  },
+  "974611570": {
+    "address": "Madlasandnes 11, 4045 HAFRSFJORD",
+    "latitude": 58.94306,
+    "longitude": 5.65594,
+    "municipality": "Stavanger",
+    "organisation_number": "974611570",
+    "school": "Hafrsfjord skole",
+    "source_url": "https://skoleoversikten.no/skoler/974611570/hafrsfjord-skole"
+  },
+  "974611589": {
+    "address": "Sundeveien 10, 4047 HAFRSFJORD",
+    "latitude": 58.96177,
+    "longitude": 5.62086,
+    "municipality": "Stavanger",
+    "organisation_number": "974611589",
+    "school": "Sunde skole",
+    "source_url": "https://skoleoversikten.no/skoler/974611589/sunde-skole"
+  },
+  "974611597": {
+    "address": "St. Svithuns gate 40, 4009 STAVANGER",
+    "latitude": 58.96448,
+    "longitude": 5.72217,
+    "municipality": "Stavanger",
+    "organisation_number": "974611597",
+    "school": "Kannik skole",
+    "source_url": "https://skoleoversikten.no/skoler/974611597/kannik-skole"
+  },
+  "974611600": {
+    "address": "Ordfører Tveteraas gate 11, 4020 STAVANGER",
+    "latitude": 58.91783,
+    "longitude": 5.72237,
+    "municipality": "Stavanger",
+    "organisation_number": "974611600",
+    "school": "Hinna skole",
+    "source_url": "https://skoleoversikten.no/skoler/974611600/hinna-skole"
+  },
+  "974611619": {
+    "address": "Soltunveien 30, 4026 STAVANGER",
+    "latitude": 58.97967,
+    "longitude": 5.70084,
+    "municipality": "Stavanger",
+    "organisation_number": "974611619",
+    "school": "Tastaveden skole",
+    "source_url": "https://skoleoversikten.no/skoler/974611619/tastaveden-skole"
+  },
+  "974611627": {
+    "address": "Revheimsveien 128, 4043 HAFRSFJORD",
+    "latitude": 58.95224,
+    "longitude": 5.64228,
+    "municipality": "Stavanger",
+    "organisation_number": "974611627",
+    "school": "Revheim skole",
+    "source_url": "https://skoleoversikten.no/skoler/974611627/revheim-skole"
+  },
+  "974611635": {
+    "address": "Vikedalsgata 11, 4012 STAVANGER",
+    "latitude": 58.9648,
+    "longitude": 5.74042,
+    "municipality": "Stavanger",
+    "organisation_number": "974611635",
+    "school": "St. Svithun skole",
+    "source_url": "https://skoleoversikten.no/skoler/974611635/st-svithun-skole"
+  },
+  "974611651": {
+    "address": "Skolevollen 17, 4017 STAVANGER",
+    "latitude": 58.93773,
+    "longitude": 5.73433,
+    "municipality": "Stavanger",
+    "organisation_number": "974611651",
+    "school": "Kristianslyst skole",
+    "source_url": "https://skoleoversikten.no/skoler/974611651/kristianslyst-skole"
+  },
+  "974611678": {
+    "address": "Heiloveien 11, 4049 HAFRSFJORD",
+    "latitude": 58.96676,
+    "longitude": 5.60541,
+    "municipality": "Stavanger",
+    "organisation_number": "974611678",
+    "school": "Kvernevik skole",
+    "source_url": "https://skoleoversikten.no/skoler/974611678/kvernevik-skole"
+  },
+  "974611686": {
+    "address": "Sophus Bugges gate 13, 4041 HAFRSFJORD",
+    "latitude": 58.94099,
+    "longitude": 5.68416,
+    "municipality": "Stavanger",
+    "organisation_number": "974611686",
+    "school": "Gosen skole",
+    "source_url": "https://skoleoversikten.no/skoler/974611686/gosen-skole"
+  },
+  "974611805": {
+    "address": "Gauselbakken 103, 4032 STAVANGER",
+    "latitude": 58.89839,
+    "longitude": 5.73383,
+    "municipality": "Stavanger",
+    "organisation_number": "974611805",
+    "school": "Gausel skole",
+    "source_url": "https://skoleoversikten.no/skoler/974611805/gausel-skole"
+  },
+  "974611813": {
+    "address": "Jernalderveien 47, 4041 HAFRSFJORD",
+    "latitude": 58.94278,
+    "longitude": 5.69083,
+    "municipality": "Stavanger",
+    "organisation_number": "974611813",
+    "school": "Madlavoll skole",
+    "source_url": "https://skoleoversikten.no/skoler/974611813/madlavoll-skole"
+  },
+  "974611848": {
+    "address": "Alkeveien 19, 4049 HAFRSFJORD",
+    "latitude": 58.96831,
+    "longitude": 5.6069,
+    "municipality": "Stavanger",
+    "organisation_number": "974611848",
+    "school": "Smiodden skole",
+    "source_url": "https://skoleoversikten.no/skoler/974611848/smiodden-skole"
+  },
+  "975267687": {
+    "address": "Skoletunet 1, 4056 TANANGER",
+    "latitude": 58.93724,
+    "longitude": 5.59922,
+    "municipality": "Sola",
+    "organisation_number": "975267687",
+    "school": "Tananger ungdomsskole",
+    "source_url": "https://skoleoversikten.no/skoler/975267687/tananger-ungdomsskole"
+  },
+  "975275272": {
+    "address": "Håvasteinveien 105, 4150 RENNESØY",
+    "latitude": 59.10529,
+    "longitude": 5.69775,
+    "municipality": "Stavanger",
+    "organisation_number": "975275272",
+    "school": "Rennesøy skule",
+    "source_url": "https://skoleoversikten.no/skoler/975275272/rennesoy-skule"
+  },
+  "975275299": {
+    "address": "Vodlaveien 1, 4156 MOSTERØY",
+    "latitude": 59.07874,
+    "longitude": 5.66926,
+    "municipality": "Stavanger",
+    "organisation_number": "975275299",
+    "school": "Mosterøy skole",
+    "source_url": "https://skoleoversikten.no/skoler/975275299/mosteroy-skole"
+  },
+  "975275345": {
+    "address": "Liane 1, 4164 FOGN",
+    "latitude": 59.13848,
+    "longitude": 5.90267,
+    "municipality": "Stavanger",
+    "organisation_number": "975275345",
+    "school": "Fogn oppvekstsenter Avdeling skule",
+    "source_url": "https://skoleoversikten.no/skoler/975275345/fogn-oppvekstsenter-avdeling-skule"
+  },
+  "975275353": {
+    "address": "Sjernarøyvegen 898, 4170 SJERNARØY",
+    "latitude": 59.25506,
+    "longitude": 5.84305,
+    "municipality": "Stavanger",
+    "organisation_number": "975275353",
+    "school": "Sjernarøy oppvekstsenter Avdeling skule",
+    "source_url": "https://skoleoversikten.no/skoler/975275353/sjernaroy-oppvekstsenter-avdeling-skule"
+  },
+  "975275531": {
+    "address": "Espedalsvegen 156, 4110 FORSAND",
+    "latitude": 58.89709,
+    "longitude": 6.13249,
+    "municipality": "Sandnes",
+    "organisation_number": "975275531",
+    "school": "Forsand skule",
+    "source_url": "https://skoleoversikten.no/skoler/975275531/forsand-skule"
+  },
+  "975275566": {
+    "address": "Tjeltavegen 5, 4054 TJELTA",
+    "latitude": 58.84069,
+    "longitude": 5.60066,
+    "municipality": "Sola",
+    "organisation_number": "975275566",
+    "school": "Dysjaland skule",
+    "source_url": "https://skoleoversikten.no/skoler/975275566/dysjaland-skule"
+  },
+  "975275574": {
+    "address": "Tananger Ring 3, 4056 TANANGER",
+    "latitude": 58.93771,
+    "longitude": 5.6033,
+    "municipality": "Sola",
+    "organisation_number": "975275574",
+    "school": "Haga skole",
+    "source_url": "https://skoleoversikten.no/skoler/975275574/haga-skole"
+  },
+  "975275582": {
+    "address": "Grannessletta 150, 4052 RØYNEBERG",
+    "latitude": 58.91805,
+    "longitude": 5.68241,
+    "municipality": "Sola",
+    "organisation_number": "975275582",
+    "school": "Grannes skole",
+    "source_url": "https://skoleoversikten.no/skoler/975275582/grannes-skole"
+  },
+  "975275604": {
+    "address": "Myklaberglia 21, 4052 RØYNEBERG",
+    "latitude": 58.90446,
+    "longitude": 5.66542,
+    "municipality": "Sola",
+    "organisation_number": "975275604",
+    "school": "Røyneberg skole",
+    "source_url": "https://skoleoversikten.no/skoler/975275604/royneberg-skole"
+  },
+  "975275612": {
+    "address": "Litlabergvegen 20, 4051 SOLA",
+    "latitude": 58.88323,
+    "longitude": 5.66776,
+    "municipality": "Sola",
+    "organisation_number": "975275612",
+    "school": "Skadberg skole",
+    "source_url": "https://skoleoversikten.no/skoler/975275612/skadberg-skole"
+  },
+  "975289249": {
+    "address": "Hagabakken 1, 4160 FINNØY",
+    "latitude": 59.17441,
+    "longitude": 5.87132,
+    "municipality": "Stavanger",
+    "organisation_number": "975289249",
+    "school": "Finnøy skule",
+    "source_url": "https://skoleoversikten.no/skoler/975289249/finnoy-skule"
+  },
+  "975299112": {
+    "address": "Storevardvegen 13, 4056 TANANGER",
+    "latitude": 58.93896,
+    "longitude": 5.57718,
+    "municipality": "Sola",
+    "organisation_number": "975299112",
+    "school": "Storevarden skole",
+    "source_url": "https://skoleoversikten.no/skoler/975299112/storevarden-skole"
+  },
+  "976207270": {
+    "address": "Vatneliveien 79, 4309 SANDNES",
+    "latitude": 58.8592,
+    "longitude": 5.77235,
+    "municipality": "Sandnes",
+    "organisation_number": "976207270",
+    "school": "Vatneli skole",
+    "source_url": "https://skoleoversikten.no/skoler/976207270/vatneli-skole"
+  },
+  "977506077": {
+    "address": "Eldfiskbakken 11, 4028 STAVANGER",
+    "latitude": 58.98981,
+    "longitude": 5.68228,
+    "municipality": "Stavanger",
+    "organisation_number": "977506077",
+    "school": "Teinå skole",
+    "source_url": "https://skoleoversikten.no/skoler/977506077/teina-skole"
+  },
+  "977506123": {
+    "address": "Rektor Berntsens gate 9, 4022 STAVANGER",
+    "latitude": 58.95744,
+    "longitude": 5.6947,
+    "municipality": "Stavanger",
+    "organisation_number": "977506123",
+    "school": "Lassa skole",
+    "source_url": "https://skoleoversikten.no/skoler/977506123/lassa-skole"
+  },
+  "979847548": {
+    "address": "Bogafjellbakken 1, 4324 SANDNES",
+    "latitude": 58.82116,
+    "longitude": 5.75067,
+    "municipality": "Sandnes",
+    "organisation_number": "979847548",
+    "school": "Bogafjell skole",
+    "source_url": "https://skoleoversikten.no/skoler/979847548/bogafjell-skole"
+  },
+  "980030253": {
+    "address": "Rissebærstraen 34, 4315 SANDNES",
+    "latitude": 58.88156,
+    "longitude": 5.74587,
+    "municipality": "Sandnes",
+    "organisation_number": "980030253",
+    "school": "Lurahammaren ungdomsskole",
+    "source_url": "https://skoleoversikten.no/skoler/980030253/lurahammaren-ungdomsskole"
+  },
+  "980203883": {
+    "address": "Prinsens vei 3, 4315 SANDNES",
+    "latitude": 58.88313,
+    "longitude": 5.73925,
+    "municipality": "Sandnes",
+    "organisation_number": "980203883",
+    "school": "Forus friskole - Bus",
+    "source_url": "https://skoleoversikten.no/skoler/980203883/forus-friskole-bus"
+  },
+  "980419169": {
+    "address": "Stemvegen 36, 4050 SOLA",
+    "latitude": 58.88879,
+    "longitude": 5.65535,
+    "municipality": "Sola",
+    "organisation_number": "980419169",
+    "school": "Sande skole",
+    "source_url": "https://skoleoversikten.no/skoler/980419169/sande-skole"
+  },
+  "982944635": {
+    "address": "Adjunkt Hauglands gate 52, 4022 STAVANGER",
+    "latitude": 58.96039,
+    "longitude": 5.69091,
+    "municipality": "Stavanger",
+    "organisation_number": "982944635",
+    "school": "Stavanger Kristne grunnskole",
+    "source_url": "https://skoleoversikten.no/skoler/982944635/stavanger-kristne-grunnskole"
+  },
+  "982980712": {
+    "address": "Kjærholen 5, 4316 SANDNES",
+    "latitude": 58.86341,
+    "longitude": 5.72287,
+    "municipality": "Sandnes",
+    "organisation_number": "982980712",
+    "school": "Smeaheia skole",
+    "source_url": "https://skoleoversikten.no/skoler/982980712/smeaheia-skole"
+  },
+  "983083269": {
+    "address": "Lerkeskogen 1, 4083 HUNDVÅG",
+    "latitude": 59.00198,
+    "longitude": 5.73994,
+    "municipality": "Stavanger",
+    "organisation_number": "983083269",
+    "school": "Lunde skole",
+    "source_url": "https://skoleoversikten.no/skoler/983083269/lunde-skole"
+  },
+  "983618979": {
+    "address": "Sørbøveien 6, 4150 RENNESØY",
+    "latitude": 59.10359,
+    "longitude": 5.69861,
+    "municipality": "Stavanger",
+    "organisation_number": "983618979",
+    "school": "Vikevåg skule",
+    "source_url": "https://skoleoversikten.no/skoler/983618979/vikevag-skule"
+  },
+  "984034547": {
+    "address": "Gjerdeveien 32, 4027 STAVANGER",
+    "latitude": 58.98634,
+    "longitude": 5.69202,
+    "municipality": "Stavanger",
+    "organisation_number": "984034547",
+    "school": "Tastarustå skole",
+    "source_url": "https://skoleoversikten.no/skoler/984034547/tastarusta-skole"
+  },
+  "984696124": {
+    "address": "Haugen 27, 4323 SANDNES",
+    "latitude": 58.82558,
+    "longitude": 5.73013,
+    "municipality": "Sandnes",
+    "organisation_number": "984696124",
+    "school": "Sørbø skole",
+    "source_url": "https://skoleoversikten.no/skoler/984696124/sorbo-skole"
+  },
+  "986836195": {
+    "address": "Eidevegen 2, 4187 OMBO",
+    "latitude": 59.23545,
+    "longitude": 5.94584,
+    "municipality": "Stavanger",
+    "organisation_number": "986836195",
+    "school": "Ombo oppvekstsenter Avdeling skule",
+    "source_url": "https://skoleoversikten.no/skoler/986836195/ombo-oppvekstsenter-avdeling-skule"
+  },
+  "986978070": {
+    "address": "Elveosen 8, 4323 SANDNES",
+    "latitude": 58.82388,
+    "longitude": 5.71712,
+    "municipality": "Sandnes",
+    "organisation_number": "986978070",
+    "school": "Sandnes friskole AS",
+    "source_url": "https://skoleoversikten.no/skoler/986978070/sandnes-friskole-as"
+  },
+  "990180253": {
+    "address": "Buggelandskogen 5, 4324 SANDNES",
+    "latitude": 58.81477,
+    "longitude": 5.75449,
+    "municipality": "Sandnes",
+    "organisation_number": "990180253",
+    "school": "Buggeland skole",
+    "source_url": "https://skoleoversikten.no/skoler/990180253/buggeland-skole"
+  },
+  "994392328": {
+    "address": "Haugen 12, 4323 SANDNES",
+    "latitude": 58.82743,
+    "longitude": 5.72557,
+    "municipality": "Sandnes",
+    "organisation_number": "994392328",
+    "school": "Lundehaugen ungdomsskole",
+    "source_url": "https://skoleoversikten.no/skoler/994392328/lundehaugen-ungdomsskole"
+  },
+  "998211794": {
+    "address": "Tjensvollveien 46, 4021 STAVANGER",
+    "latitude": 58.95177,
+    "longitude": 5.70301,
+    "municipality": "Stavanger",
+    "organisation_number": "998211794",
+    "school": "Kristen friskole AS",
+    "source_url": "https://skoleoversikten.no/skoler/998211794/kristen-friskole-as"
+  }
+}
